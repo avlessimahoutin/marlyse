@@ -1,0 +1,452 @@
+@media screen and (min-width: 980px) {
+
+    body {
+        background-color: aliceblue;
+        background-image: url(elodie.png);
+    }
+
+    .photo {
+        border-style: solid;
+
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 71%;
+        left: 67%;
+        border-radius: 10% 10% 10% 10%;
+        border-color: blue;
+        z-index: 1;
+        text-align: center;
+        padding: 10px;
+        font-size: 38px;
+        font-family: cursive;
+
+
+    }
+
+    .photo1 {
+        border-top-style: solid;
+        border-top-width: 15px;
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        top: 4%;
+        left: 66%;
+        border-radius: 50% 50% 0% 0%;
+        border-color: blue;
+
+
+    }
+
+    .photo2 {
+        border-bottom-style: solid;
+        border-bottom-width: 15px;
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        top: 08%;
+        left: 66%;
+        border-radius: 0% 0% 50% 50%;
+        border-color: yellow;
+
+
+    }
+
+    .form {
+        border-style: solid;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 02%;
+        left: 01%;
+        border-radius: 0% 0% 0% 0%;
+        border-color: blue;
+        background-color: blue;
+        color: yellow;
+
+
+    }
+
+    .formation {
+        border-style: solid;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 6%;
+        left: 01%;
+        border-radius: 0% 0% 0% 0%;
+        border-color: blue;
+        border-left-width: 10px;
+
+
+    }
+
+    .exp {
+        border-style: solid;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 25%;
+        left: 01%;
+        border-radius: 0% 0% 0% 0%;
+        border-color: blue;
+        background-color: blue;
+        color: yellow;
+
+    }
+
+    .experience {
+        border-style: solid;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 029%;
+        left: 01%;
+        border-radius: 0% 0% 0% 0%;
+        border-color: blue;
+        border-left-width: 10px;
+
+
+    }
+
+    .comp {
+        border-style: solid;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 62%;
+        left: 1%;
+        border-radius: 0% 0% 0% 0%;
+        border-color: blue;
+        background-color: blue;
+        color: yellow;
+    }
+
+    .competence {
+        border-style: solid;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 066%;
+        left: 1%;
+        border-radius: 0% 0% 0% 0%;
+        border-color: blue;
+        border-bottom-width: 10px;
+        border-left-width: 10px;
+
+    }
+
+    .int {
+        border-style: solid;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 62%;
+        left: 27%;
+        border-radius: 0% 0% 0% 0%;
+        border-color: blue;
+        background-color: blue;
+        color: yellow;
+    }
+
+    .interet {
+        border-style: solid;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 066%;
+        left: 27%;
+        border-radius: 0% 0% 0% 0%;
+        border-color: blue;
+        border-bottom-width: 10px;
+
+
+    }
+
+    .qual {
+        border-style: solid;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 62%;
+        left: 41%;
+        border-radius: 0% 0% 0% 0%;
+        border-color: blue;
+        background-color: blue;
+        color: yellow;
+        font-size: 15px;
+
+    }
+
+    .qualite {
+        border-style: solid;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 066%;
+        left: 41%;
+        border-radius: 0% 0% 0% 0%;
+        border-color: blue;
+        border-bottom-width: 10px;
+        border-right-width: 10px;
+
+    }
+
+    div {
+        margin-top: 0px;
+        font-size: 15px;
+        margin: 5px;
+    }
+
+    span {
+        border-style: solid;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 92%;
+        left: 01%;
+        border-radius: 0% 0% 0% 0%;
+        border-color: black;
+        background-color: black;
+        color: white;
+        font-size: small;
+
+    }
+}
+
+
+@media screen and (max-width: 980px) {
+
+    body {
+        background-color: aliceblue;
+        background-image: url(elo.png);
+        opacity: 6;
+    }
+
+    .photo {
+        border-style: none;
+
+        width: 100%;
+        height: auto;
+        position: relative;
+        /*  top: 225px;
+        left: 13%;*/
+        border-radius: 10% 10% 10% 10%;
+        border-color: none;
+        z-index: 1;
+        text-align: center;
+        font-size: 25px;
+        font-family: cursive;
+        max-width: 100%;
+
+
+
+    }
+
+    .photo1 {
+        border-top-style: solid;
+        border-top-width: 15px;
+        border-bottom-style: solid;
+        border-bottom-width: 10px;
+        width: 150px;
+        height: 200px;
+        position: relative;
+        /* top: 0%;
+        left: 35%;*/
+        border-radius: 50% 50% 50% 50%;
+        border-color: blue;
+        margin-left: 40%;
+
+
+    }
+
+    /*
+
+    .photo2 {
+        border-bottom-style: solid;
+        border-bottom-width: 15px;
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        top: 08%;
+        left: 66%;
+        border-radius: 0% 0% 50% 50%;
+        border-color: yellow;
+
+
+    }*/
+
+    .form {
+        border-style: solid;
+        width: 80px;
+        height: auto;
+        position: relative;
+        /* top: 295px;
+        left: 01%;*/
+        border-radius: 0% 0% 0% 0%;
+        border-color: blue;
+        background-color: blue;
+        color: yellow;
+        max-width: 100%;
+
+
+    }
+
+    .formation {
+        border-style: solid;
+        width: auto;
+        height: auto;
+        position: relative;
+        /*top: 320px;
+        left: 01%;*/
+        border-radius: 0% 0% 0% 0%;
+        border-color: blue;
+        border-left-width: 10px;
+        max-width: 100%;
+
+
+    }
+
+    .exp {
+        border-style: solid;
+        width: 90px;
+        height: auto;
+        position: relative;
+        /*top: 520px;
+        left: 01%;*/
+        border-radius: 0% 0% 0% 0%;
+        border-color: blue;
+        background-color: blue;
+        color: yellow;
+        max-width: 100%;
+
+    }
+
+    .experience {
+        border-style: solid;
+        width: auto;
+        height: auto;
+        position: relative;
+        /*  top: 545px;
+        left: 01%;*/
+        border-radius: 0% 0% 0% 0%;
+        border-color: blue;
+        border-left-width: 10px;
+        max-width: 100%;
+
+
+    }
+
+    .comp {
+        border-style: solid;
+        width: 103px;
+        height: auto;
+        position: relative;
+        /* top: 1200px;
+        left: */
+        border-radius: 0% 0% 0% 0%;
+        border-color: blue;
+        background-color: blue;
+        color: yellow;
+
+    }
+
+    .competence {
+        border-style: solid;
+        width: auto;
+        height: auto;
+        position: relative;
+        /* top: 1200px;
+        left: 1%;*/
+        border-radius: 0% 0% 0% 0%;
+        border-color: blue;
+        border-left-width: 10px;
+        max-width: 100%;
+
+    }
+
+    .int {
+        border-style: solid;
+        width: 130px;
+        height: auto;
+        position: relative;
+        /*  top: 850px;
+        left: 1%;*/
+        border-radius: 0% 0% 0% 0%;
+        border-color: blue;
+        background-color: #0000ff;
+        color: yellow;
+        max-width: 100%;
+    }
+
+    .interet {
+        border-style: solid;
+        width: auto;
+        height: auto;
+        position: relative;
+        /* top: 876px;
+        left: 1%;*/
+        border-radius: 0% 0% 0% 0%;
+        border-color: blue;
+        border-left-width: 10px;
+        max-width: 100%;
+
+
+    }
+
+    .qual {
+        border-style: solid;
+        width: 70px;
+        height: auto;
+        /*position: relative;
+        top: 875px;*/
+        left: 50%;
+        border-radius: 0% 0% 0% 0%;
+        border-color: blue;
+        background-color: blue;
+        color: yellow;
+        font-size: 15px;
+
+    }
+
+    .qualite {
+        border-style: solid;
+        width: auto;
+        height: auto;
+        position: relative;
+        /* top: 900px;
+        left: 50%;*/
+        border-radius: 0% 0% 0% 0%;
+        border-color: blue;
+        border-left-width: 10px;
+        max-width: 100%;
+
+    }
+
+    div {
+        margin-top: 0px;
+        font-size: 15px;
+        margin: 5px;
+    }
+
+    span {
+        border-style: solid;
+        width: 100%;
+        height: auto;
+        position: relative;
+        /* top: 1100px;
+        left: 1%;*/
+        border-radius: 0% 0% 0% 0%;
+        border-color: black;
+        background-color: black;
+        color: white;
+        font-size: 10px;
+        max-width: 100%;
+        text-align: center;
+
+    }
+
+    b {
+        font-size: 20px;
+    }
+}
